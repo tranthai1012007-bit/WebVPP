@@ -1,4 +1,6 @@
 // Lưu id các sản phẩm đang được tick
+const thuMuc = new URL(".", document.currentScript.src).href;   // .../Chung/
+const goc    = new URL("../", document.currentScript.src).href; // .../WebVPP/
 const daChon = new Set();
 
 function dinhDangTien(n) {
